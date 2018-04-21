@@ -5,9 +5,9 @@
 /nvram				emmc	/dev/nvram										flags=display="Nvram";backup=1
 
 /custpack			ext4	/dev/block/mmcblk0p5							flags=display="Custpack";backup=1;wipeingui
-/custpack_image		emmc	/dev/block/mmcblk0p5							flags=display="Custpack Image";backup=1;flashimg=1;wipeingui
+/custpack_image		emmc	/dev/block/mmcblk0p5							flags=display="Custpack Image";backup=1;flashimg=1
 /system				ext4	/dev/block/mmcblk0p6							flags=display="System";backup=1;wipeingui
-/system_image		emmc	/dev/block/mmcblk0p6							flags=display="System Image";backup=1;flashimg=1;wipeingui
+/system_image		emmc	/dev/block/mmcblk0p6							flags=display="System Image";backup=1;flashimg=1
 /cache				ext4	/dev/block/mmcblk0p7							flags=display="Cache";wipeingui;wipeduringfactoryreset
 /data				ext4	/dev/block/mmcblk0p8 							flags=display="Data";wipeingui;settingsstorage;backup=1;wipeduringfactoryreset
 
