@@ -11,6 +11,8 @@
 /cache				ext4	/dev/block/mmcblk0p7							flags=display="Cache";wipeingui;wipeduringfactoryreset
 /data				ext4	/dev/block/mmcblk0p8 							flags=display="Data";wipeingui;settingsstorage;backup=1;wipeduringfactoryreset
 
+/misc				emmc	/dev/block/mmcblk0p3							flags=display="Misc"
+
 /pro_info			emmc	/dev/pro_info									flags=display="proinfo";backup=1
 /protect_f			emmc	/dev/block/mmcblk0p2							flags=display="protect_f";backup=1
 /protect_s			emmc	/dev/block/mmcblk0p3							flags=display="protect_s";backup=1
