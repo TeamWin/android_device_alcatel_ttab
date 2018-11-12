@@ -11,10 +11,6 @@ TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_SMP := true
 TARGET_CPU_VARIANT := cortex-a7
 
-# Flags
-TARGET_GLOBAL_CFLAGS += -mfpu=neon -mfloat-abi=softfp
-TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
-
 # Kernel
 TARGET_PREBUILT_KERNEL := device/alcatel/ttab/kernel
 #TARGET_KERNEL_CONFIG := ttab_defconfig
