@@ -9,7 +9,7 @@
 /system				ext4	/dev/block/mmcblk0p6							flags=display="System";backup=1;wipeingui
 /system_image		emmc	/dev/block/mmcblk0p6							flags=display="System Image";backup=1;flashimg=1
 /cache				ext4	/dev/block/mmcblk0p7							flags=display="Cache";wipeingui;wipeduringfactoryreset
-/data				ext4	/dev/block/mmcblk0p8 							flags=display="Data";wipeingui;settingsstorage;backup=1;wipeduringfactoryreset
+/data				ext4	/dev/block/mmcblk0p8 							flags=display="Data";wipeingui;settingsstorage;backup=1;wipeduringfactoryreset;encryptable=footer;length=-16384
 
 /misc				emmc	/dev/block/mmcblk0p3							flags=display="Misc"
 
